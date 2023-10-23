@@ -1,5 +1,5 @@
 // your code here
-const btn = document.querySelector('.sub');
+const btn = document.getElementById('button');
 		const text = document.querySelector('.text');
 		const num = document.querySelector('.number');
 		const head = document.getElementById('url');
