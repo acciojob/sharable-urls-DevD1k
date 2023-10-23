@@ -3,26 +3,10 @@
   <body>
 	  <input class="text" type="text" id="name" name="name" />
 	  <input class="number" type="number" id="year" name="year" />
-	  <button class="sub">Sumbit</button>
+	  <button class="sub">Submit</button>
 	  <h3 id="url">https://localhost:8080/</h3>
     <script type="text/javascript" src="./script.js">
-		const btn = document.querySelector('.sub');
-		const text = document.querySelector('.text');
-		const num = document.querySelector('.number');
-		const head = document.getElementById('url');
-		btn.addEventListener('click', function() {
-			if(text.value && num.value) {
-				 head.textContent = `https://localhost:8080/?name=${text.value}&year=${num.value}`;
-			}
-			if(text.value) {
-				head.textContent = `https://localhost:8080/?name=${text.value}`;
-			}
-			if(num.value) {
-				head.textContent = `https://localhost:8080/?year=${number.value}`;
-			}else {
-				head.textContent = `nigga`;
-			}
-		})
+		
 </script>
   </body>
 
